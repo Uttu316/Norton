@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Norton</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="styles/style.css"
+      media="screen"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Source+Sans+Pro:300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://buy-static.norton.com/norton/ps/bb/ushard/360/js/external-min.js?ckcachebust=146e9847c2540d0bb43626a0aaf58fa7"></script>
+
+    <script src="scripts/script.js"></script>
+  </head>
+  <body>
+    <div id="main-contianer">
+      <div id="header">
+        <img
+          id="main-logo"
+          src="./images/NortonLifeLock-Horizontal-Dark.png"
+          alt="NortonLifeLock"
+        />
+        <div id="header-btn">
+          <img src="./images/phone-icon.png" alt="phone-icon" />
+          <span> SALES AGENT</span>
+        </div>
+      </div>
+      <div id="hero-banner">
+        <div id="hero-banner-content">
+          <span id="hero-banner-headline">
+            The antivirus you want. The added protection you need.
+          </span>
+          <div id="special-offer">
+            <div id="special-offer-hrline"></div>
+            <span>SPECIAL OFFER</span>
+          </div>
+          <div id="save-upto">
+            <p>SAVE UP TO</p>
+            <span> $50<sup>*</sup> </span>
+          </div>
+          <a href="#something" id="plan-pricing-btn">
+            <span>PLANS & PRICING</span>
+          </a>
+          <div id="terms-condition-link">
+            * <a href="#terms">Terms & Conditions</a> apply.
+          </div>
+        </div>
+      </div>
+      <div class="tabs" id="first-tabs">
+        <div class="tab active" data-target="#threats-tab-container">
+          <span class="tab-subHeading">Today’s Threats</span>
+        </div>
+        <div class="tab" data-target="#howItWorks-tab-container">
+          <span class="tab-subHeading">How It Works</span>
+        </div>
+        <div class="tab" data-target="#lifelock-tab-container">
+          <span class="tab-subHeading"
+            >Why<br />
+            NortonLifeLock</span
+          >
+        </div>
+      </div>
+      <div class="tab-containers">
+        <div id="threats-tab-container" class="tab-container">
+          <img
+            class="tab-container-image"
+            src="./images/woman-tablet-in-hand.jpg"
+            alt="woman-tablet-in-hand"
+          />
+          <div class="tab-container-heading">
+            In today’s connected world threats may include:
+          </div>
+          <div id="threats">
+            <div class="threat">
+              <img class="threat-icon" src="./images/device-security.png" />
+              <div class="threat-description">
+                <span class="threat-heading">DEVICE THREATS</span>
+                <div>
+                  <span>• Ransomware</span>
+                  <span>• Malware</span>
+                  <span>• Spyware</span>
+                </div>
+              </div>
+            </div>
+            <div class="threat">
+              <img class="threat-icon" src="./images/online-privacy.png" />
+              <div class="threat-description">
+                <span class="threat-heading">ONLINE PRIVACY THREATS</span>
+                <div>
+                  <span>• Ad tracking</span>
+                  <span>• Phishing<span>◊</span></span>
+                  <span>• Online scams<span>◊</span></span>
+                </div>
+              </div>
+            </div>
+            <div class="threat">
+              <img class="threat-icon" src="./images/identity.png" />
+              <div class="threat-description">
+                <span class="threat-heading"
+                  >IDENTITY THREATS<span>†</span></span
+                >
+                <div>
+                  <span>• Your info on the dark web</span>
+                  <span>• Unauthorized SSN use</span>
+                  <span>• Unauthorized online loans</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="howItWorks-tab-container" class="tab-container">
+          <div class="tab-container-heading">
+            Cyberthreats are evolving. So are we.
+          </div>
+          <div class="tab-container-subheading">
+            Introducing NortonLifeLock. Providing Cyber Safety with all-in-one
+            protection for your devices, online privacy and identity.
+          </div>
+          <div id="security-accordions">
+            <div class="security-accordion-header pannel">
+              <div class="security-accordion-heading">DEVICE SECURITY</div>
+              <div class="security-accordion-icon pannel-icon">+</div>
+            </div>
+
+            <div id="device-security" class="security-pannel-container">
+              Device Security
+            </div>
+            <div class="security-accordion-header pannel ">
+              <div class="security-accordion-heading">ONLINE PRIVACY</div>
+              <div class="security-accordion-icon pannel-icon">+</div>
+            </div>
+            <div id="online-privacy" class="security-pannel-container">
+              Online Privacy
+            </div>
+            <div class="security-accordion-header pannel">
+              <div class="security-accordion-heading">
+                IDENTITY THEFT PROTECTION
+              </div>
+              <div class="security-accordion-icon pannel-icon">+</div>
+            </div>
+            <div id="theft-protection" class="security-pannel-container ">
+              Theft Protection
+            </div>
+          </div>
+        </div>
+        <div id="lifelock-tab-container" class="tab-container">
+          <div class="tab-container-heading">
+            50+ million people trust our award-winning protection<sup>1,6</sup>
+          </div>
+          <div id="awards-carousel">
+            <div class="awards-carousel-btn" id="awards-carousel-leftbtn"></div>
+            <div id="awards">
+              <div class="awards-carousel-item">
+                <img src="./images/pcmag-award.png" />
+                <span class="awards-carousel-item-label"
+                  >A trademark of Ziff Davis, LLC. Used under license. Reprinted
+                  with permission. © 2019 Ziff Davis, LLC. All Rights
+                  Reserved.<br />
+                  44-Time Winner awarded in 2019.</span
+                >
+              </div>
+              <div class="awards-carousel-item">
+                <img
+                  src="https://buy-static.norton.com/norton/ps/ad/pages/us/images/awards-avtest-2x.png"
+                />
+                <span class="awards-carousel-item-label"
+                  >A trademark of Ziff Davis, LLC. Used under license. Reprinted
+                  with permission. © 2019 Ziff Davis, LLC. All Rights
+                  Reserved.<br />
+                  44-Time Winner awarded in 2019.
+                </span>
+              </div>
+              <div class="awards-carousel-item">
+                <img
+                  src="https://buy-static.norton.com/norton/ps/ad/pages/us/images/awards-selabs3.png"
+                />
+                <span class="awards-carousel-item-label"
+                  >A trademark of Ziff Davis, LLC. Used under license. Reprinted
+                  with permission. © 2019 Ziff Davis, LLC. All Rights
+                  Reserved.<br />
+                  44-Time Winner awarded in 2019.</span
+                >
+              </div>
+            </div>
+            <div
+              class="awards-carousel-btn"
+              id="awards-carousel-rightbtn"
+            ></div>
+          </div>
+          <img
+            class="tab-container-image"
+            src="./images/tab-3-mobile.png"
+            alt="tab-3-mobile"
+          />
+          <div class="tab-container-heading">
+            Trust your protection to<br />
+            a trusted name.
+          </div>
+          <div id="trusted-points">
+            <div class="trust-point">
+              <img class="check-icon" src="./images/check-icon-box.png" />
+              <div class="trust-point-label">
+                Backed by the world’s largest cyber intelligence network
+              </div>
+            </div>
+            <div class="trust-point">
+              <img class="check-icon" src="./images/check-icon-box.png" />
+              <div class="trust-point-label">
+                Over 30 years of cybersecurity experience
+              </div>
+            </div>
+            <div class="trust-point">
+              <img class="check-icon" src="./images/check-icon-box.png" />
+              <div class="trust-point-label">
+                The leader in consumer cybersecurity
+              </div>
+            </div>
+          </div>
+          <div id="our-promise-container">
+            <div class="tab-container-heading">
+              Our promise
+            </div>
+            <div class="promise" id="virus-protection-promise">
+              <img src="./images/100-guarantee.png" />
+              <div class="promise-label">
+                <div>
+                  100% Guarantee
+                </div>
+
+                <div>Virus Protection Promise<sup>2</sup></div>
+              </div>
+            </div>
+
+            <div class="promise" id="money-back-promise">
+              <img src="./images/60-money-back.png" />
+              <div class="promise-label">
+                <div>
+                  60-Day Money Back Guarantee
+                </div>
+                <div>
+                  with annual purchase
+                </div>
+              </div>
+            </div>
+            <div class="promise" id="free-support-promise">
+              <img src="./images/24-7-support.png" />
+              <div class="promise-label">Free 24/7 Support<sup>∆</sup></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="protection-heading">
+        Choose the right level of protection for you
+      </div>
+      <div id="switch-container">
+        <div class="switch-label">
+          <span>Billed Annually</span>
+          <span id="switch-offerValue">SAVE UP TO $50*</span>
+        </div>
+        <div id="switch">
+          <div></div>
+        </div>
+        <div class="switch-label">
+          <span>Billed Monthly</span>
+        </div>
+      </div>
+      <div class="tabs" id="second-tabs">
+        <div class="tab" data-target="#first-card" data-slick-index="0">
+          <span class="tab-heading">STANDARD</span>
+          <span class="tab-subHeading">1 Device</span>
+        </div>
+        <div class="tab" data-target="#second-card" data-slick-index="1">
+          <span class="tab-heading">DELUXE</span>
+          <span class="tab-subHeading">5 Devices</span>
+        </div>
+        <div class="tab" data-target="#third-card" data-slick-index="2">
+          <span class="tab-heading" id="select-tab">SELECT</span>
+          <span class="tab-subHeading">5 Devices</span>
+        </div>
+        <div
+          class="tab"
+          id="ultimate-tab"
+          data-target="#fourth-card"
+          data-slick-index="3"
+        >
+          <span class="tab-heading">ULTIMATE<br />PLUS</span>
+          <span class="tab-subHeading"
+            >Unlimited<br />
+            Devices*</span
+          >
+        </div>
+      </div>
+      <div id="products-container">
+        <div id="slider-btn-left" class="slider-btn"></div>
+        <div id="slider-container">
+          <div class="product-card tab-container" id="first-card">
+            <div class="product-card-tag" id="first-card-tag">
+              1
+
+              <span>
+                Device
+              </span>
+            </div>
+            <div class="product-card-heading">
+              NORTON 360
+            </div>
+            <div class="product-card-subHeading">
+              STANDARD
+            </div>
+            <div class="monthly">
+              <div class="product-saving" id="first-product-saving"></div>
+              <div class="product-card-price">
+                <span>$</span>
+                <div id="first-product-price">
+                  7
+                </div>
+                <span
+                  >99
+                  <div class="product-month-year" id="first-product-month-year">
+                    /month
+                  </div>
+                </span>
+              </div>
+
+              <div class="product-duration" id="first-product-duration">
+                for first year
+              </div>
+              <a href="#something" class="product-link" id="first-product-link">
+                BUY NOW
+              </a>
+              <div class="pricing-details" id="first-pricing-details">
+                Then $7.99/year. Pricing details below*
+              </div>
+            </div>
+            <div class="yearly">
+              <div class="product-saving" id="first-product-saving">
+                SAVE $50*
+              </div>
+              <div class="product-card-price">
+                <span>$</span>
+                <div id="first-product-price">
+                  29
+                </div>
+                <span
+                  >99
+                  <div class="product-month-year" id="first-product-month-year">
+                    /year
+                  </div>
+                </span>
+              </div>
+
+              <div class="product-duration" id="first-product-duration">
+                $79.99
+              </div>
+              <a href="#something" class="product-link" id="first-product-link">
+                BUY NOW
+              </a>
+              <div class="pricing-details" id="first-pricing-details">
+                Price is for the 1st year.<br />See pricing details below*
+              </div>
+            </div>
+            <div class="product-features">
+              <div
+                class="product-features-item"
+                aria-label="Real-time protection against ransomware, viruses, spyware, malware and other online threats"
+              >
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature"> Security for 1 Device</span>
+              </div>
+              <div
+                class="product-features-item"
+                aria-label="Cloud storage to store and protect important files and documents against hard drive failures, stolen devices and even ransomware"
+              >
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature"> PC Cloud Backup - 10 GB</span>
+              </div>
+              <div
+                class="product-features-item"
+                aria-label="Norton experts are available to help keep your devices virus-free, or your money back"
+              >
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature">
+                  Virus Protection Promise<sup>2</sup></span
+                >
+              </div>
+              <div
+                class="product-features-item"
+                aria-label="Access your favorite apps and websites when connecting to Wi-Fi at home or on-the-go with the reassurance of bank-grade encryption"
+              >
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature"> VPN for 1 Device</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card tab-container" id="second-card">
+            <div class="product-card-tag" id="second-card-tag">
+              5
+
+              <span>
+                Devices
+              </span>
+            </div>
+            <div class="product-card-heading">
+              NORTON 360
+            </div>
+            <div class="product-card-subHeading">
+              DELUX
+            </div>
+            <div class="monthly">
+              <div class="product-saving" id="second-product-saving">
+                SAVE $2*
+              </div>
+              <div class="product-card-price">
+                <span>$</span>
+                <div id="second-product-price">
+                  7
+                </div>
+                <span
+                  >99
+                  <div
+                    class="product-month-year"
+                    id="second-product-month-year"
+                  >
+                    /month
+                  </div>
+                </span>
+              </div>
+
+              <div class="product-duration" id="second-product-duration">
+                for first year
+              </div>
+              <a
+                href="#something"
+                class="product-link"
+                id="second-product-link"
+              >
+                BUY NOW
+              </a>
+              <div class="pricing-details" id="second-pricing-details">
+                Then $9.99/year. Pricing details below*
+              </div>
+            </div>
+            <div class="yearly">
+              <div class="product-saving" id="second-product-saving">
+                SAVE $60*
+              </div>
+              <div class="product-card-price">
+                <span>$</span>
+                <div id="second-product-price">
+                  39
+                </div>
+                <span
+                  >99
+                  <div
+                    class="product-month-year"
+                    id="second-product-month-year"
+                  >
+                    /year
+                  </div>
+                </span>
+              </div>
+
+              <div class="product-duration" id="second-product-duration">
+                $99.99
+              </div>
+              <a
+                href="#something"
+                class="product-link"
+                id="second-product-link"
+              >
+                BUY NOW
+              </a>
+              <div class="pricing-details" id="second-pricing-details">
+                Price is for the 1st year.<br />
+                See pricing details below*
+              </div>
+            </div>
+            <div class="product-features">
+              <div class="product-features-item">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature"> Security for 5 Devices</span>
+              </div>
+              <div class="product-features-item">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature"> PC Cloud Backup - 50 GB</span>
+              </div>
+              <div class="product-features-item">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature">
+                  Virus Protection Promise<sup>2</sup></span
+                >
+              </div>
+              <div class="product-features-item mgb18">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature ">
+                  Parental Controls<sup>‡</sup></span
+                >
+              </div>
+              <div class="product-features-item mgb18">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature"> VPN for 5 Devices</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card tab-container" id="third-card">
+            <div class="product-card-tag" id="third-card-tag">
+              5
+
+              <span>
+                Devices
+              </span>
+            </div>
+            <div class="product-card-heading">
+              NORTON 360 WITH LIFELOCK
+            </div>
+            <div class="product-card-subHeading">
+              SELECT
+            </div>
+            <div class="monthly">
+              <div class="product-saving" id="third-product-saving">
+                SAVE $5*
+              </div>
+              <div class="product-card-price">
+                <span>$</span>
+                <div id="third-product-price">
+                  9
+                </div>
+                <span
+                  >99
+                  <div class="product-month-year" id="third-product-month-year">
+                    /month
+                  </div>
+                </span>
+              </div>
+
+              <div class="product-duration" id="third-product-duration">
+                for first year
+              </div>
+              <a href="#something" class="product-link" id="third-product-link">
+                BUY NOW
+              </a>
+              <div class="pricing-details" id="third-pricing-details">
+                Then $14.99/year. Pricing details below*
+              </div>
+            </div>
+            <div class="yearly">
+              <div class="product-saving" id="third-product-saving">
+                SAVE $60*
+              </div>
+              <div class="product-card-price">
+                <span>$</span>
+                <div id="third-product-price">
+                  89
+                </div>
+                <span
+                  >99
+                  <div class="product-month-year" id="third-product-month-year">
+                    /month
+                  </div>
+                </span>
+              </div>
+
+              <div class="product-duration" id="third-product-duration">
+                $149.99
+              </div>
+              <a href="#something" class="product-link" id="third-product-link">
+                BUY NOW
+              </a>
+              <div class="pricing-details" id="third-pricing-details">
+                Price is for the 1st year.<br />
+                See pricing details below*
+              </div>
+            </div>
+            <div class="product-features">
+              <div class="product-features-item">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature"> Security for 5 Devices</span>
+              </div>
+              <div class="product-features-item">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature"> PC Cloud Backup - 100 GB</span>
+              </div>
+              <div class="product-features-item">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature">
+                  Virus Protection Promise<sup>2</sup></span
+                >
+              </div>
+              <div class="product-features-item mgb18">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature ">
+                  Parental Controls<sup>‡</sup></span
+                >
+              </div>
+              <div class="product-features-item mgb18">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature"> VPN for 5 Devices</span>
+              </div>
+              <div class="product-features-item mgb14">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature"
+                  ><span id="bold-feature">$25,000</span>
+                  <div id="bold-feature-label">
+                    Reimbursement for Stolen Funds<span>†††</span>
+                  </div></span
+                >
+              </div>
+              <div class="product-features-item mgb18">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature">
+                  SSN & Credit Alerts<sup>†</sup></span
+                >
+              </div>
+              <div class="product-features-item">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature">
+                  Credit Monitoring:
+                  <div id="one-bureau-feature">One-Bureau<sup>3</sup></div>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card tab-container" id="fourth-card">
+            <div class="product-card-tag" id="fourth-card-tag">
+              <span> Unlimited <br />Devices </span>
+            </div>
+            <div class="product-card-heading">
+              NORTON 360 WITH LIFELOCK
+            </div>
+            <div class="product-card-subHeading">
+              ULTIMATE PLUS
+            </div>
+            <div class="monthly">
+              <div class="product-saving" id="fourth-product-saving">
+                SAVE$9*
+              </div>
+              <div class="product-card-price">
+                <span>$</span>
+                <div id="fourth-product-price">
+                  25
+                </div>
+                <span
+                  >99
+                  <div
+                    class="product-month-year"
+                    id="fourth-product-month-year"
+                  >
+                    /month
+                  </div>
+                </span>
+              </div>
+
+              <div class="product-duration" id="fourth-product-duration">
+                for first year
+              </div>
+              <a
+                href="#something"
+                class="product-link"
+                id="fourth-product-link"
+              >
+                BUY NOW
+              </a>
+              <div class="pricing-details" id="fourth-pricing-details">
+                Then $34.99/year. Pricing details below*
+              </div>
+            </div>
+            <div class="yearly">
+              <div class="product-saving" id="fourth-product-saving">
+                SAVE$90*
+              </div>
+              <div class="product-card-price">
+                <span>$</span>
+                <div id="fourth-product-price">
+                  259
+                </div>
+                <span
+                  >99
+                  <div
+                    class="product-month-year"
+                    id="fourth-product-month-year"
+                  >
+                    /month
+                  </div>
+                </span>
+              </div>
+
+              <div class="product-duration" id="fourth-product-duration">
+                $349.99
+              </div>
+              <a
+                href="#something"
+                class="product-link"
+                id="fourth-product-link"
+              >
+                BUY NOW
+              </a>
+              <div class="pricing-details" id="fourth-pricing-details">
+                Price is for the 1st year.<br />See pricing details below*
+              </div>
+            </div>
+            <div class="product-features">
+              <div class="product-features-item">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature">
+                  Security for Unlimited
+                  <div class="inner-feature">Devices</div></span
+                >
+              </div>
+              <div class="product-features-item">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature"> PC Cloud Backup - 500 GB</span>
+              </div>
+              <div class="product-features-item">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature">
+                  Virus Protection Promise<sup>2</sup></span
+                >
+              </div>
+              <div class="product-features-item mgb18">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature ">
+                  Parental Controls<sup>‡</sup></span
+                >
+              </div>
+              <div class="product-features-item mgb18">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature"> VPN for Unlimited Devices</span>
+              </div>
+              <div class="product-features-item mgb14">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature stolen-feature">
+                  Stolen Funds
+                  <div class="inner-feature">
+                    Reimburshment up to<br />
+                    $1M
+
+                    <span>†††</span>
+                  </div>
+                </span>
+              </div>
+              <div class="product-features-item mgb18">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature">
+                  SSN & Credit Alerts<sup>†</sup></span
+                >
+              </div>
+              <div class="product-features-item">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature">
+                  Credit Monitoring:3 bureau
+                  <sup>3</sup>
+                </span>
+              </div>
+              <div class="product-features-item">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature">
+                  Annual Credit Reports &
+                  <div class="inner-feature">Scores: 3 bureaus<sup>1</sup></div>
+                </span>
+              </div>
+              <div class="product-features-item">
+                <img src="./images/icon-info.png" class="info-icon" />
+                <span class="product-feature">
+                  Credit, Checking & Savings
+                  <div class="inner-feature">
+                    Account Activity Alerts<sup>†</sup>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="slider-btn-right" class="slider-btn"></div>
+      </div>
+      <a href="#protection-heading" id="compare-plans">Compare Plans</a>
+      <div id="footer">
+        <div id="footer-accordions">
+          <div class="accordion-header pannel">
+            <div class="accordion-heading">System Requirements</div>
+            <div class="accordion-icon pannel-icon">+</div>
+          </div>
+          <div id="system-requirements" class="footer-pannel-container">
+            System Requirements
+          </div>
+          <div class="accordion-header pannel" id="terms">
+            <div class="accordion-heading">
+              *Important Subscription and pricing terms, offer details and
+              disclosures
+            </div>
+            <div class="accordion-icon pannel-icon">
+              +
+            </div>
+          </div>
+          <div id="sub-price-terms" class="footer-pannel-container">
+            Subscription price terms
+          </div>
+        </div>
+        <div id="copyright">
+          Copyright ©
+          <script>
+            var theDate = new Date();
+            document.write(theDate.getFullYear());
+          </script>
+          Symantec Corporation. All rights reserved. Symantec, the Symantec
+          Logo, the Checkmark Logo, Norton, Norton by Symantec, LifeLock, and
+          the LockMan Logo are trademarks or registered trademarks of Symantec
+          Corporation or its affiliates in the U.S. and other countries. Other
+          names may be trademarks of their respective owners.
+        </div>
+      </div>
+      <div id="sticky-plan-pricing">
+        <a href="#protection-heading" id="sticky-btn">PLANS & PRICING</a>
+      </div>
+    </div>
+  </body>
+</html>
